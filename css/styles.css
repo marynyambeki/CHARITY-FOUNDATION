@@ -9,7 +9,8 @@
 h2 {
     font-family: 'Julee', cursive;
     font-size:3em;
-    text-align: center;
+    text-align: left;
+    padding-left: 700px;
 }
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
@@ -29,13 +30,14 @@ body {
     outline: none;
     cursor: pointer;
     padding: 7px  7px;
-    font-size: 8px;
-    width: 100%;
-    height: 30px;
-
+    font-size: 18px;
+    text-align: center; 
+    width: 60%;
+    height: 85px;
   }
   .tablink:hover {
-    background-color: #777;
+    background-color:rgb(223, 132, 22);
+    text-emphasis: hover black;
   }
   /*Style the tab content (and add width:100% for full page content)*/
 .qstns {
@@ -43,6 +45,11 @@ body {
     padding: 10px 10px;
     height: 100%;
     width: 100%;
+  }
+  .tabcontent {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 400px;
   }
 
 
