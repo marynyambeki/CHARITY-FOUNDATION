@@ -6,9 +6,6 @@
     font-family: 'Julee', cursive;
     font-size: 1.1em;
 }
-h1{
-    border: 1px;
-}
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body {
@@ -29,3 +26,7 @@ body {
     width: 64%;
     height: 30px;
   }
+  .tablink:hover {
+    background-color: #777;
+  }
+  
