@@ -69,3 +69,7 @@ body {
   margin: auto;
   background:  bisque;
 }
+
+.mySlides {
+  display:none;
+}
