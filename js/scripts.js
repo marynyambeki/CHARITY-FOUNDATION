@@ -1,5 +1,20 @@
 $(document).ready(function(){
-    $(".dropbtn").click(function(){
+    $(".dropbtn1").click(function(){
         $(".para1").toggle();
+    });
+});
+$(document).ready(function(){
+    $(".dropbtn2").click(function(){
+        $(".para2").toggle();
+    });
+});
+$(document).ready(function(){
+    $(".dropbtn3").click(function(){
+        $(".para3").toggle();
+    });
+});
+$(document).ready(function(){
+    $(".dropbtn4").click(function(){
+        $(".para4").toggle();
     });
 });
