@@ -1,7 +1,14 @@
-.para1{
-
-    display: none;
+.mission {
+    text-align: center;
+    text-justify: initial;
+    margin-left: 600px;
+    margin-right: 400px;
+    font-family: 'Julee', cursive;
+    font-size: 1.1em;
+    
 }
-.para2{
-    display: 
+h1{
+    border: 1px;
+
+
 }
