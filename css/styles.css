@@ -1,62 +1,85 @@
 .mission {
-    text-align: center;
-    line-height: 1.;
-    margin-left: 600px;
-    margin-right: 400px;
-    font-family: 'Julee', cursive;
-    font-size: 1.2em;
-    font-display: 40px;
-    padding-top: 50px;
-    padding-right: 200px;
+  text-align: center;
+  line-height: 1.;
+  margin-left: 600px;
+  margin-right: 400px;
+  font-family: 'Julee', cursive;
+  font-size: 1.2em;
+  font-display: 40px;
+  padding-top: 50px;
+  padding-right: 200px;
 }
 h1{
-    padding-top: 100px;
+  padding-top: 100px;
 }
 h2 {
-    font-family: 'Julee', cursive;
-    font-size:3em;
-    text-align: left;
-    padding-left: 700px;
+  font-family: 'Julee', cursive;
+  font-size:3em;
+}
+h2.qsns{
+margin-top: 70px;
+margin-bottom: 70px;
+font-weight: bold;
+text-align: center;
+}
+h3.h3qsn {
+font-size: 17px;
 }
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Julee', cursive;
-  }
-/* Style tab links */
+  height: 100%;
+  margin: 0;
+  font-family: 'Julee', cursive;
+}
+
 .tablink {
-    background-color: #b22222;
-    color:white;
-    float: left;
-    border: 100%;
-    border-radius: 60px;
-    border-right-style: hidden;
-    outline: none;
-    cursor: pointer;
-    padding: 7px  7px;
-    font-size: 18px;
-    text-align: left; 
-    width: 60%;
-    height: 85px;
-  }
-  .tablink:hover {
-    background-color:rgb(245, 170, 78);
-    text-emphasis: hover black;
-  }
-  /*Style the tab content (and add width:100% for full page content)*/
+  background-color: #b22222;
+  color:white;
+  border: 100%;
+  border-radius: 60px;
+  border-right-style: hidden;
+  outline: none;
+  cursor: pointer;
+  padding: 10px  10px;
+  font-size: 10px;
+  width: 50%;
+  height: 50px;
+}
+.tablink:hover {
+  background-color:rgb(245, 170, 78);
+  text-emphasis: hover black;
+}
+/*Style the tab content (and add width:100% for full page content)*/
 .qstns {
-    color:black;
-    padding: 10px 10px;
-    height: 100%;
-    width: 100%;
-  }
-  .tabcontent {
-    padding-top: 10px;
-    padding-bottom: 100px;
-    padding-left: 400px;
-  }
+  color:black;
+}
 
-
-
+.para1, .para2, .para3, .para4, .para5, .para6{
+  display:none;
+  padding-top: 15px;
+}
+.cont {
+  text-align: left;
+}
+.col {
+  margin-bottom: 15px;
+}
+.para1{
+text-align: justify;
+}
+.para2{
+  text-align: justify; 
+}
+.para3{
+  text-align: justify; 
+}
+.para4{
+  text-align: justify;
+}
+.para5{
+  text-align: justify;
+}
+.para6{
+  text-align: justify;
+}
