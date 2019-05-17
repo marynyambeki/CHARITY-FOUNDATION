@@ -60,6 +60,200 @@ h1{
 #SUBSCRIBE{
   text-align:center;
 }
-=======
 
->>>>>>> bcd20e0d520116b653fea166c0bdf5f7f3e7f02c
+
+.crop {
+
+  overflow: hidden;
+
+  height: 100px;
+
+  width: 100%;
+
+  border-bottom: 4px solid #e89e17;
+
+}
+
+
+
+.head {
+
+background-color: white;
+
+background-size: cover;
+
+background-position: center;
+
+height: 600px;
+
+width: 100%;
+
+position: relative;
+
+top: 1%;
+
+}
+
+
+
+#logo {
+
+  width: 20em;
+
+  height: 20em;
+
+  display: block;
+
+  position:relative;
+
+  top: 2%;
+
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+
+
+
+  img#logo {
+
+    width: 25em;
+
+    height: 20em;
+
+    padding-right: 2em;
+
+    display: block;
+
+    margin: 0 auto; }
+
+}
+
+
+
+.wrapper {
+
+  width: 100%;
+
+  margin: 0 auto;
+
+ }
+
+
+
+.flex-container {
+
+  display: flex;
+
+  flex-direction: row;
+
+  height: 55px;
+
+
+
+}
+
+
+
+.box {
+
+  flex-grow: 1;
+
+  min-width: 20%;
+
+  text-align: center;
+
+  background: #8B0000;
+
+  }
+
+
+
+.menutext {
+
+ color: white;
+
+  font-family: Oswald;
+
+  font-size: 1.2em;
+
+  line-height: 3em;
+
+  font-family: 'Acme', sans-serif;
+
+}
+
+
+
+.altbox {
+
+  background: #B22222;
+
+}
+
+
+
+body {
+
+  width: 100%;
+
+  margin: auto;
+
+  background: white;
+
+}
+
+
+
+
+
+.links{
+
+  padding-right: 60px;
+
+}
+
+.ul1 li{
+
+  list-style: none;
+
+  margin-top: 15px;
+
+  /* margin-bottom: 15px; */
+
+}
+
+/* .row{
+
+  /* float: right; */
+
+  align-content: center;
+
+  text-align: center;
+
+} */
+
+.location {
+
+  line-height: 1.5;
+
+  display: block;
+
+  /* padding: 200px;  */
+
+}
+
+.location p {
+
+  line-height: 0.7;
+
+}
+
+.footer {
+
+  background-color: rgb(131, 48, 48);
+
+  text-align: center;
+
+}
