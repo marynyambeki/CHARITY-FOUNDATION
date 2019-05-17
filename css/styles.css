@@ -26,6 +26,11 @@ h3.h3qsn {
 font-size: 17px;
 }
 
+h4{
+  text-align: center;
+  font-size: px;
+}
+
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body {
   height: 100%;
@@ -83,3 +88,4 @@ text-align: justify;
 .para6{
   text-align: justify;
 }
+
