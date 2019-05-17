@@ -1,4 +1,61 @@
-.para1{
+#form-group  {
+text-align:center;
 
-    display: none;
+}
+body{
+  column-fill: auto;
+}
+.container{
+  text-align: justify;
+  float: left;
+}
+
+.col-25 {
+
+  text-align: center;
+}
+.row{
+  display: block;
+  flex-direction: row;
+}
+.main{
+
+
+    margin: 10px;
+
+    padding: 10px;
+
+    background-color:#B22222;
+
+    border-radius: 15px;
+
+    box-shadow: 3px 3px 11px #000000;
+
+    text-align: right;
+
+}
+#submit{
+
+      margin: 10px;
+
+      padding: 10px;
+
+      background-color: rgba(0, 0, 0, 0.5);
+
+      border-radius: 15px;
+
+      box-shadow: 3px 3px 11px #000000;
+
+      text-align: right;
+
+}
+h1{
+  text-align:center;
+}
+#REGISTER{
+  text-align:center;
+  padding right:50px;
+}
+#SUBSCRIBE{
+  text-align:center;
 }
